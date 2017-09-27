@@ -9,6 +9,7 @@ namespace ASPdotNETWebAPI.Models
     public class Employees
     {
         [Required]
+        [Key]
         public int EmployeeID { get; set; }
 
         [Required]

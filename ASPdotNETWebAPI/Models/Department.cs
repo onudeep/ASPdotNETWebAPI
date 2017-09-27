@@ -9,6 +9,7 @@ namespace ASPdotNETWebAPI.Models
     public class Department
     {
         [Required]
+        [Key]
         public int DepartmentID { get; set; }
         [Required]
         public string DepartmentName { get; set; }
